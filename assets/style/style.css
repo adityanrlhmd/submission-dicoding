@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3{
+    color: #002050;
+}
+
+header{
+    display: inline;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #002050;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #000080;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav li a:hover{
+    background-color: #000080;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+    color: #000080 !important;
+}
+
+.isi-dropdown a:hover {
+    color: white !important;
+    background: #000080 !important;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+.judul {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #002050;
+    text-align: center;
+    color: white;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+    /* Rule yang dituliskan dalam block @media di bawah akan diterapkan pada device yang memiliki ukuran viewport di bawah 1000px */
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.cd{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    background-color: #808080;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.bio{
+    padding: 10px;
+    text-align: center;
+}
+
+.bio img{
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.personal{
+    text-align: left;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.skills{
+    text-align: left;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.skill-bar{
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.skill{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+}
+.html{
+    width: 90%;
+    background-color: #223b72;
+}
+
+.css{
+    width: 80%;
+    background-color: #223b72;
+}
+
+.js{
+    width: 40%;
+    background-color: #223b72;
+}
+
+.java{
+    width: 70%;
+    background-color: #223b72;
+}
+
+.mysql{
+    width:60%;
+    background-color: #223b72;
+}
+
+.c{
+    width:90%;
+    background-color: #223b72;
+}
+
+.contact img{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+#home:hover , #hp:hover, #email:hover{
+    -webkit-transform: scale(1.58);
+    transform: scale(1.58);
+}
+
+.sosmed{
+    position: sticky;
+    top: 0;
+}
+
+.sosmed li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.sosmed img{
+    width: 30px;
+}
+
+.kotak img{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+#fb:hover , #ig:hover, #ln:hover, #tw:hover, #tl:hover, #wa:hover{
+    -webkit-transform: scale(1.58);
+    transform: scale(1.58);
+}
+
+.contact{
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.contact img{
+    width: 20px;
+}
+
